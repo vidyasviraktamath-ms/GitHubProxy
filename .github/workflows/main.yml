@@ -24,4 +24,4 @@ jobs:
       with:
         azcliversion: 2.30.0
         inlineScript: |
-          az deployment group create --resource-group my-resource-group --template-file "KV creation/kv.json"
+          az deployment group create --resource-group southeastasiaapimrg --template-file "KV creation/kv.json"
