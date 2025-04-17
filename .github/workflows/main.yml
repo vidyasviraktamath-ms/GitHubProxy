@@ -25,5 +25,5 @@ jobs:
         azcliversion: 2.30.0
         inlineScript: |
           az deployment group create \
-            --resource-group <RESOURCE_GROUP_NAME> \
+            --resource-group sap-fioneer-rg \
             --template-file ../kv.json
