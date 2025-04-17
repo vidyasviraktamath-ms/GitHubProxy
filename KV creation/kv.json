@@ -4,7 +4,7 @@
     "parameters": {
         "location": {
             "type": "string",
-            "defaultValue": "EastUS",
+            "defaultValue": "CentralIndia",
             "metadata": {
                 "description": "Location for all resources."
             }
@@ -18,14 +18,14 @@
         },
         "keyVaultName": {
             "type": "string",
-            "defaultValue": "myKeyVault",
+            "defaultValue": "mykeyvaultvxe",
             "metadata": {
                 "description": "Name of the Key Vault."
             }
         },
         "functionAppName": {
             "type": "string",
-            "defaultValue": "myFunctionApp",
+            "defaultValue": "myFunctionAppvxe",
             "metadata": {
                 "description": "Name of the Function App."
             }
