@@ -84,8 +84,8 @@
             "name": "[parameters('appServicePlanName')]",
             "location": "[parameters('location')]",
             "sku": {
-                "name": "Y1",
-                "tier": "Dynamic"
+                "name": "F1",
+                "tier": "Free"
             },
             "dependsOn": [
                 "[resourceId('Microsoft.Resources/resourceGroups', parameters('resourceGroupName'))]"
