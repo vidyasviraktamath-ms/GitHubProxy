@@ -26,4 +26,4 @@ jobs:
         inlineScript: |
           az deployment group create \
             --resource-group sap-fioneer-rg \
-            --template-file ../kv.json
+            --template-file ../KV creation/kv.json
