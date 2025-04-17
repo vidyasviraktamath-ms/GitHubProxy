@@ -3,7 +3,7 @@ name: Deploy JSON to Azure
 on:
   push:
     branches:
-      - no trigger
+      - main
 
 jobs:
   deploy-to-azure:
