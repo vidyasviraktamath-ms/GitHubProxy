@@ -4,7 +4,7 @@
     "parameters": {
         "location": {
             "type": "string",
-            "defaultValue": "CentralIndia",
+            "defaultValue": "WestUS",
             "metadata": {
                 "description": "Location for all resources."
             }
