@@ -24,4 +24,4 @@ jobs:
       with:
         azcliversion: 2.30.0
         inlineScript: |
-          az deployment group create --resource-group myResourceGroup --template-file "KV creation/kv.json"
+          az deployment group create --resource-group myResourceGroup --template-file "kv-functionapp/kv-fapp.json"
